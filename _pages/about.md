@@ -1,6 +1,6 @@
 ---
-title: Resume
-permalink: /resume/
+title: About
+permalink: /about/
 ---
 
 
