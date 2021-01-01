@@ -1,3 +1,14 @@
+---
+title: "Ionic + Capacitor 프로젝트에 코도바 플러그인 및 아이오닉 네이티브 플러그인을 설치하면서 발생하는 문제점"
+categories:
+- Hybrid App
+tags:
+  - 모바일앱
+  - 프론트엔드개발자 
+  - Ionic
+  - Capacitor
+---
+
 #### 2020/11/11 개발일지
 * local notification 플러그인을 capacitor 를 사용하다 로직 작동이 이상한 것 같아 cordova 플러그인으로 변경했으나 capacitor 프로젝트와 연동이 안되어 다시 capacitor 플러그인으로 되돌리는 과정에서 빌드 에러 디버깅 하느라 시간이 많이 소요 되었음. (이틀 정도…)
 
@@ -41,21 +52,3 @@ npx cap sync
 ```
 
 [jetifier  -  npm](https://www.npmjs.com/package/jetifier)
-
----
-title: "Ionic + Capacitor 프로젝트에 코도바 플러그인 및 아이오닉 네이티브 플러그인을 설치하면서 발생하는 문제점"
-categories:
-  - Hybrid App
-tags:
-    - 하이브리드앱 
-    - 모바일앱
-    - 프론트엔드 
-    - 프론트엔드개발자 
-    - 프론트개발자 
-    - Frontend 
-    - Developer 
-    - Ionic
-    - React
-    - Ionic-react
-    - Capacitor
----
