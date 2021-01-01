@@ -2,7 +2,8 @@
 title: "Xcode 프로젝트 생성 및 아이폰 앱 테스트하는 방법"
 excerpt: "PC로 Xcode iOS 개발하는 방법, Xcode 프로젝트 git clone 하는 방법"
 header:
-  image: /assets/images/2019-10-21.jpg
+  overlay_image: /assets/images/2019-10-21.jpg
+  overlay_filter: rgba(0, 0, 0, 0.5)
   teaser: /assets/images/2019-10-21.jpg
 categories:
     - iOS
