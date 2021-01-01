@@ -2,6 +2,7 @@
 title: "Capacitor Local Notifications 을 세팅하면서 마주한 문제점 해결"
 header:
   image: /assets/images/2020-11-24.png
+  overlay_color: "#000000"
 categories:
     - Hybrid-App
 tags:
