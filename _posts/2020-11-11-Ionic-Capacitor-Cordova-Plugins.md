@@ -2,7 +2,8 @@
 title: "Ionic + Capacitor + Cordova 플러그인 설치시 문제점"
 excerpt: "Ionic + Capacitor 프로젝트에 코도바 플러그인 및 아이오닉 네이티브 플러그인을 설치하면서 발생하는 문제점"
 header:
-  image: /assets/images/2020-11-11.jpg
+  overlay_image: /assets/images/2020-11-11.jpg
+  overlay_filter: rgba(0, 0, 0, 0.5)
   teaser: /assets/images/2020-11-11.jpg
 categories:
 - Hybrid-App
