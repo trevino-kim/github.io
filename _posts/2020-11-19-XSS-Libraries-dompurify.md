@@ -1,6 +1,9 @@
 ---
 title: "XSS 라이브러리 - dompurify"
 excerpt: "GS인증을 위한 XSS attack 방지"
+header:
+	image: /assets/images/2020-11-19.jpg
+	teaser: /assets/images/2020-11-19.jpg
 categories:
   - Hybrid-App
 tags:
