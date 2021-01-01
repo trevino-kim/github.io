@@ -89,8 +89,11 @@
 
 .archive__item-teaser {
   position: relative;
-  border-radius: $border-radius;
+  max-height: 300px;
+  border-radius: 10px;
+  // border-radius: $border-radius;
   overflow: hidden;
+  box-shadow: 0 0px 40px -10px dodgerblue;
 
   img {
     width: 100%;
