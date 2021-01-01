@@ -4,6 +4,8 @@ main:
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "이력서"
     url: https://jade-kim.github.io/about/
+  - title: "포트폴리오"
+    url: https://jade-kim.github.io/portfolio/
   - title: "카테고리"
     url: https://jade-kim.github.io/categories/
   - title: "태그"
