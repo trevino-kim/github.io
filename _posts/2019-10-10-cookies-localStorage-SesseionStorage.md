@@ -2,6 +2,7 @@
 title: "쿠키, 로컬스토리지, 세션스토리지 차이점"
 header:
   image: /assets/images/2019-10-10.jpg
+  teaser: /assets/images/2019-10-10.jpg
 categories:
     - Web
 tags:
