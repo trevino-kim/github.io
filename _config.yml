@@ -12,18 +12,18 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" # "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "개발자 Jade 블로그"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+name                     : "김정현 Jade"
+description              : "프로젝트 경험, 개발 공부 드을 기록하며 웹 개발자로 성장하는 공간"
+url                      : "https://jade-kim.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
+repository               : "Jade-Kim/Jade-Kim.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -69,13 +69,13 @@ yandex_site_verification :
 naver_site_verification  :
 
 # Social Sharing
-twitter:
-  username               :
-facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 : # Open Graph/Twitter default site image
+#twitter:
+#  username               :
+#facebook:
+#  username               :
+#  app_id                 :
+#  publisher              :
+#og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -93,51 +93,51 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  name             : "김정현 (Jade Kim)"
+  avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Frontend Developer"
+  location         : "USA, Korea"
+  email            : "jadekim925@gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+    # - label: "Email"
+    #  icon: "fas fa-fw fa-envelope-square"
+    #  url: "mailto:jadekim925@gmail.com"
+    # - label: "Blog"
+    #  icon: "fas fa-fw fa-link"
+    #  url: "https://jade-kim.github.io/"
+   # - label: "Twitter"
+   #   icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
+   # - label: "Facebook"
+   #   icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
+      url: "http://github.com/Jade-Kim"
+   # - label: "Instagram"
+   #   icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+    #- label: "Twitter"
+    #  icon: "fab fa-fw fa-twitter-square"
       # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
+    #- label: "Facebook"
+    #  icon: "fab fa-fw fa-facebook-square"
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
+      url: "http://github.com/Jade-Kim"
+   # - label: "GitLab"
+   #   icon: "fab fa-fw fa-gitlab"
       # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
+   # - label: "Bitbucket"
+   #   icon: "fab fa-fw fa-bitbucket"
       # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
+  #  - label: "Instagram"
+  #    icon: "fab fa-fw fa-instagram"
       # url:
 
 
