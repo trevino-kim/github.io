@@ -1,7 +1,6 @@
 ---
-title: About
-permalink: /about/
-author_profile: true
+title: Resume
+permalink: /resume/
 ---
 
 
