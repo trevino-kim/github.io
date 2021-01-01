@@ -3,12 +3,12 @@ title: "GS인증을 위한 XSS 라이브러리 조사 - dompurify"
 categories:
   - Hybrid App
 tags:
-	- 프론트엔드 
-	- 프론트엔드개발자 
-	- Frontend 
-	- Developer 
+  - 프론트엔드 
+  - 프론트엔드개발자 
+  - Frontend 
+  - Developer 
   - Ionic
-	- React
+  - React
 ---
 
 #### 2020/11/19 개발일지
