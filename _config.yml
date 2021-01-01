@@ -85,9 +85,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : "google" # false # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "UA-150901480-2"
     anonymize_ip         : # true, false (default)
 
 
@@ -102,9 +102,9 @@ author:
     # - label: "Email"
     #  icon: "fas fa-fw fa-envelope-square"
     #  url: "mailto:jadekim925@gmail.com"
-    # - label: "Blog"
-    #  icon: "fas fa-fw fa-link"
-    #  url: "https://jade-kim.github.io/"
+    - label: "Blog"
+      icon: "fas fa-fw fa-link"
+      url: "https://jade-kim.github.io/"
    # - label: "Twitter"
    #   icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -279,14 +279,14 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: # true
       share: true
       related: true
       
   # _portfolio
   - scope:
-      path: ""
+      path: "/portfolio"
       type: portfolio
     values:
       layout: single
