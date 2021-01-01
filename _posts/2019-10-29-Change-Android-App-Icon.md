@@ -19,7 +19,7 @@ tags:
 
 ![안드로이드 앱 아이콘 변경하는 방법](/assets/image/2019-10-29-1.png)
 
-더 자세한 내용은 ![안드로이드 개발자 홈페이지](https://developer.android.com/studio/write/image-asset-studio)를 참고할 것.
+더 자세한 내용은 [안드로이드 개발자 홈페이지](https://developer.android.com/studio/write/image-asset-studio)를 참고할 것.
 
 
 * Splash Screen 스플래스 스크린 이미지 변경하려면, Android 프로젝트 폴더 - app - src - main - res 폴더에서 splash screen 이미지 변경하기
