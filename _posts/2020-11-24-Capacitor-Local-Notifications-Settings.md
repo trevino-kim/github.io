@@ -2,6 +2,7 @@
 title: "Capacitor Local Notifications 을 세팅하면서 마주한 문제점 해결"
 header:
   image: /assets/images/2020-11-24.jpg
+  teaser: /assets/images/2020-11-24.jpg
 categories:
     - Hybrid-App
 tags:
