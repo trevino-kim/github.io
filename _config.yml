@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "dark" # "default" # "air", "aqua", "contrast", "dark
 
 # Site Settings
 locale                   : "en-US"
-title                    : "개발자 Jade 블로그"
+title                    : "개발자 Jade"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "김정현 Jade"
+name                     : "김정현(Jade Kim)"
 description              : "프로젝트 경험, 개발 공부 드을 기록하며 웹 개발자로 성장하는 공간"
 url                      : "https://jade-kim.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
