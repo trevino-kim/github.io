@@ -1,5 +1,6 @@
 ---
 title: "Capacitor Local Notifications 을 세팅하면서 마주한 문제점 해결"
+excerpt: "문제점: iOS 에서 LocalNotifications 가 실행되지 않음"
 header:
   image: /assets/images/2020-11-24.jpg
   teaser: /assets/images/2020-11-24.jpg
