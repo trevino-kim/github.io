@@ -1,7 +1,7 @@
 ---
 title: "Ionic + Capacitor 프로젝트에 코도바 플러그인 및 아이오닉 네이티브 플러그인을 설치하면서 발생하는 문제점"
 categories:
-- Hybrid App
+- Hybrid-App
 tags:
   - 모바일앱
   - 프론트엔드개발자 
