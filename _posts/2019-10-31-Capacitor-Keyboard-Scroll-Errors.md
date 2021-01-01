@@ -1,7 +1,9 @@
 ---
 title: "아이오닉 앱 스크롤 먹통 문제점 해결"
+excerpt: "문제점: 모바일 화면 스크롤이 on & off 로 되다/안되다 하는 현상"
 header:
   image: /assets/images/2019-10-31.png
+  teaser: /assets/images/2019-10-31.jpg
 categories:
     - Hybrid-App
 tags:
