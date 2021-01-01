@@ -2,6 +2,8 @@
 main:
   #- title: "Quick-Start Guide"
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "이력서"
+    url: https://jade-kim.github.io/about/
   - title: "카테고리"
     url: https://jade-kim.github.io/categories/
   - title: "태그"
