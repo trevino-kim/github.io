@@ -5,4 +5,4 @@ author_profile: true
 ---
 
 
-# 김정현 Jade Kim
+![이력서](/assets/portfolio/resume.jpg)
