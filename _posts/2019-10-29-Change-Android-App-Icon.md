@@ -3,7 +3,7 @@ title: "안드로이드 앱 아이콘 변경하는 방법 및 디버그용 APK �
 excerpt: "APK 파일 이란?"
 header:
   image: /assets/images/2019-10-29.png
-  teaser: /assets/images/2019-10-29.jpg
+  teaser: /assets/images/2019-10-29.png
 categories:
     - Android
 tags:
