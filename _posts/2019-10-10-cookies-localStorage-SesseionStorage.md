@@ -3,12 +3,10 @@ title: "쿠키, 로컬스토리지, 세션스토리지 차이점"
 header:
   image: /assets/images/2019-10-10.jpg
 categories:
-    - FrontEnd
+    - Web
 tags:
     - 웹개발
 ---
-
-# 쿠키, 로컬스토리지, 세션스토리지 차이점
 
 ### LocalStorage
 * 유통 기한 없이 저장할 수 있는 데이터 공간.
