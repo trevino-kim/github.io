@@ -2,7 +2,8 @@
 title: "쿠키, 로컬스토리지, 세션스토리지 차이점"
 excerpt: "쿠키란? 로컬스토리지와 세션스토리지 정의"
 header:
-  image: /assets/images/2019-10-10.jpg
+  overlay_image: /assets/images/2019-10-10.jpg
+  overlay_filter: rgba(0, 0, 0, 0.5)
   teaser: /assets/images/2019-10-10.jpg
 categories:
     - Web
