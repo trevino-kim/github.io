@@ -3,7 +3,7 @@ title: About
 permalink: /about/
 ---
 
-<img src="/assets/images/bio-casual.png" width="300">
+<img src="/assets/images/bio-casual.png" width="500">
 
 ```ts
 let Jade = 
