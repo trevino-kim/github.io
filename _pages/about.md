@@ -4,7 +4,6 @@ permalink: /about/
 ---
 
 <img src="/assets/images/bio-casual.png" width="500" style="margin-left: 20px;">
-
 ```ts
 let Jade = 
 {
