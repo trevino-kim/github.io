@@ -3,11 +3,7 @@ title: About
 permalink: /about/
 ---
 
-
-___
-
 ![김정현 Jade Kim 프로필 사진](/assets/images/bio-casual.png)
-___
 
 ```ts
 let Jade = 
