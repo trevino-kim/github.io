@@ -2,9 +2,9 @@
 title: "리액트 환경 변수 설정하고 사용하는 방법"
 excerpt: "리액트 프레임워크에서는 scripts 에 환경 변수를 추가하여 쉽게 사용 가능할 수 있다."
 header:
-	teaser: /assets/images/2020-12-18.jpg
-	overlay_image: /assets/images/2020-12-18.jpg
-	overlay_filter: rgba(0, 0, 0, 0.5)
+  teaser: /assets/images/2020-12-18.jpg
+  overlay_image: /assets/images/2020-12-18.jpg
+  overlay_filter: rgba(0, 0, 0, 0.5)
 categories:
 - Hybrid-App
 tags:
