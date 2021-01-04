@@ -1,23 +1,26 @@
 
 ---
-title: “리액트 useEffect 사용법“
-excerpt: “React useEffect 를 사용하여 메인 화면을 클릭 할 때 마다 함수 실행하기, 로그인 상태가 변경될 때 마다 특정 함수 실행하기“
+title: "리액트 useEffect 사용법"
+excerpt: "React useEffect 를 사용하여 메인 화면을 클릭 할 때 마다 함수 실행하기, 로그인 상태가 변경될 때 마다 특정 함수 실행하기"
 header:
-	teaser: /assets/images/2021-1-3.jpg
-	overlay_image: /assets/images/2021-1-3.jpg
-	overlay_filter: rgba(0, 0, 0, 0.5)
+  teaser: /assets/images/2021-1-3.jpg
+  overlay_image: /assets/images/2021-1-3.jpg
+  overlay_filter: rgba(0, 0, 0, 0.5)
+
 categories:
-- Hybrid-App
+  - Hybrid-App
+  
 tags:
-- 프론트엔드
-- React
-- Ionic-react
+  - 프론트엔드
+  - React
+  - Ionic-react
 ---
 
 ### React 의 useEffect 훅 이란?
-	* 리액트 프레임워크에서 useEffect 라는 아주 유용한 훅이 있다. 컴포넌트가 화면에 나타날 때, 사라질 때, 업데이트 될 때 다시 렌더링을 해주는 함수이다.
-	* 리액트에서 컴포넌트를 작성할 때 크게 2가지를 사용하는데 클래스형 컴포넌트와 함수형 컴포넌트이다. 클래스형 컴포넌트에서 사용하는 `componentDidMount, componentWillUnmount, componentDidUpdate` 라이프 사이클 대신에 함수형 컴포넌트에서는 `useEffect` 을 사용한다.
-	* useEffect 사용 방법 예시
+* 리액트 프레임워크에서 useEffect 라는 아주 유용한 훅이 있다. 컴포넌트가 화면에 나타날 때, 사라질 때, 업데이트 될 때 다시 렌더링을 해주는 함수이다.
+* 리액트에서 컴포넌트를 작성할 때 크게 2가지를 사용하는데 클래스형 컴포넌트와 함수형 컴포넌트이다. 클래스형 컴포넌트에서 사용하는 `componentDidMount, componentWillUnmount, componentDidUpdate` 라이프 사이클 대신에 함수형 컴포넌트에서는 `useEffect` 을 사용한다.
+* useEffect 사용 방법 예시
+  
 ```tsx
 useEffect(() => {
 	// componentDidMount
@@ -31,7 +34,8 @@ useEffect(() => {
 // [] 배결을 deps 배열이라고 하며 이 배열 안에 추가한 state 또는 prop 이 변경될 때 마다 useEffect 훅이 실행된다.
 ```
 
-	* `deps` 배열을 비워서 `[]` 처리하면 컴포넌트가 맨 처음 화면에 나타날 때만 useEffect 함수가 호출되며 `deps` 를 아예 생략해버리면 컴포넌트가 렌더링 될 때마다 호출 된다.
+* `deps` 배열을 비워서 `[]` 처리하면 컴포넌트가 맨 처음 화면에 나타날 때만 useEffect 함수가 호출되며 `deps` 를 아예 생략해버리면 컴포넌트가 렌더링 될 때마다 호출 된다.
+  
 ```tsx
 useEffect(() => {
 	// componentDidMount
