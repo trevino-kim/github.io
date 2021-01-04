@@ -29,3 +29,19 @@ Ionic 하이브리드 모바일 앱에서 iOS 를 개발할 때 iOS safearea 를
 3. bottom: +25px
 
 ![아이폰의 안전 영역 Safe area](/assets/images/2020-12-8-1.png)
+
+
+### 안전 영역이 필요한지 체크하는 방법
+* Ionic-React 프레임워크와 Capacitor 를 사용하는 방법: Capacitor 의 `Device.getInfo()` API 를 사용하여 모바일 플랫폼 종류를 확인하여 만약 `ios` 라면 화면의 길이(Height)를 체크하여 안전 영역이 필요한지 아닌지 세팅할 수 있다.
+```ts
+const [isNeedSafearea, setIsNeedSafearea] = useState(false)
+const getPlatform = async () => {
+  const deviceInfo = await Device.getInfo()
+  if (deviceInfo.platform === 'ios') {
+    if (window.innerHeight > 770) {
+      setIsNeedSafearea(true)
+    }
+  }
+}
+```
+
