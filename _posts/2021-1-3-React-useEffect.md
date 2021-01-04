@@ -23,14 +23,14 @@ useEffect(() => {
 	// componentDidMount
 	// 컴포넌트가 화면에 나타날 때 실행하고 싶은 함수를 이 곳에 넣는다.
   return () => {
-		// componentWillUnmount
-		// 컴포넌트가 화면에 사라질 때 실행하고 싶은 함수를 이 곳에 넣는다.
-		// 클린업 함수 라고도 한다.
+	// componentWillUnmount
+	// 컴포넌트가 화면에 사라질 때 실행하고 싶은 함수를 이 곳에 넣는다.
+	// 클린업 함수 라고도 한다.
 	}
 }, [state1, prop1]) // componentDidUpdate
-// [] 배결을 deps 배열이라고 하며 이 배열 안에 추가한 state 또는 prop 이 변경될 때 마다 useEffect 훅이 실행된다.
 ```
 
+* [] 배결을 deps 배열이라고 하며 이 배열 안에 추가한 state 또는 prop 이 변경될 때 마다 useEffect 훅이 실행된다.
 * `deps` 배열을 비워서 `[]` 처리하면 컴포넌트가 맨 처음 화면에 나타날 때만 useEffect 함수가 호출되며 `deps` 를 아예 생략해버리면 컴포넌트가 렌더링 될 때마다 호출 된다.
   
 ```tsx
