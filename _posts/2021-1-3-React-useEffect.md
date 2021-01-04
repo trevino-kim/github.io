@@ -1,4 +1,3 @@
-
 ---
 title: "리액트 useEffect 사용법"
 excerpt: "React useEffect 를 사용하여 메인 화면을 클릭 할 때 마다 함수 실행하기, 로그인 상태가 변경될 때 마다 특정 함수 실행하기"
@@ -6,14 +5,12 @@ header:
   teaser: /assets/images/2021-1-3.jpg
   overlay_image: /assets/images/2021-1-3.jpg
   overlay_filter: rgba(0, 0, 0, 0.5)
-
 categories:
-  - Hybrid-App
-  
+    - Hybrid-App
 tags:
-  - 프론트엔드
-  - React
-  - Ionic-react
+    - 프론트엔드
+    - React
+    - Ionic-react
 ---
 
 ### React 의 useEffect 훅 이란?
