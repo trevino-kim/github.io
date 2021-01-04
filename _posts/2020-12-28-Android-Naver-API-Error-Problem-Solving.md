@@ -2,9 +2,9 @@
 title: "안드로이드 네이버 지도 API 에러 - https 보안 정책"
 excerpt: "안드로이드 9.0 이상에서 http평문통신을 허용하지 않고 https만 허용하는 보안정책이 있어 networkSecurityConfig 파일을 생성하여 예외처리를 해주어야 한다."
 header:
-teaser: /assets/images/2020-12-28.jpg
-overlay_image: /assets/images/2020-12-28.jpg
-overlay_filter: rgba(0, 0, 0, 0.5)
+  teaser: /assets/images/2020-12-28.jpg
+  overlay_image: /assets/images/2020-12-28.jpg
+  overlay_filter: rgba(0, 0, 0, 0.5)
 categories:
 - Hybrid-App
 tags:
