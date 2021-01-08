@@ -29,6 +29,7 @@ import SignatureCanvas from 'react-signature-canvas'
 ```
 
 4. 아래 소스 코드 예제처럼 `SignatureCanvas` 컴포넌트를 사용할 수 있다.
+
 ```tsx
 // ref 와 useRef 를 활용하여 컴포넌트 지정하기
 const canvas = useRef<ReactSignatureCanvas>(null)
