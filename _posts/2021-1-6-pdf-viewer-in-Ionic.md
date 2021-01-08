@@ -25,7 +25,7 @@ tags:
 5. 줌으로 화면이 확대 된 상태에서 스크롤을 하면 모든 사진 부분이 보여지도록   `overflow: sroll` 로 설정한다.
 
 ### PDF/사진 뷰어 구현 화면
-`![PDF/사진 뷰어 구현 화면](/assets/images/2021-1-6-1.png)`
+![PDF/사진 뷰어 구현 화면](/assets/images/2021-1-6-1.png)
 
 
 ### PDF/사진 뷰어 구현을 위한 Ionic-React 소스 코드 일부
