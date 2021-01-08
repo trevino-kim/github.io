@@ -50,6 +50,7 @@ const getMd5Hash = (dataUrl: string) => {
 `<script src=“%PUBLIC_URL%/assets/jsencrypt.min.js”></script>`
 
 5. 서버에서 받은 암호화된 퍼블릭 키(publicKeyEncoded)로 MD5 해시를 암호화하여 해시 값을 추출한다.
+
 ```ts
 const rsaEncrypt = (publicKey: string, md5: string) => {
     //전자동의서 파일 조회 API 에서 받은 "publicKeyEncoded"
@@ -62,6 +63,7 @@ const rsaEncrypt = (publicKey: string, md5: string) => {
 ```
 
 6. 암호화한 해시 값과 이미지 파일을 서버로 전송한다.
+
 ```ts
 const md5 = Utils.getMd5Hash(signDataUrl)
 const fileHash = Utils.rsaEncrypt(data.publicKeyEncoded, md5)
