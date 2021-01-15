@@ -3,15 +3,17 @@ main:
   #- title: "Quick-Start Guide"
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "소개"
-    url: https://jade-kim.github.io/about/
+    url: /about/
   - title: "이력서"
-    url: https://jade-kim.github.io/resume/
+    url: /resume/
   - title: "포트폴리오"
-    url: https://jade-kim.github.io/portfolio/
+    url: /portfolio/
+  - title: "문제 해결"
+    url: /tags/#문제-해결
   - title: "카테고리"
-    url: https://jade-kim.github.io/categories/
+    url: /categories/
   - title: "태그"
-    url: https://jade-kim.github.io/tags/
+    url: /tags/
   # - title: "연도별"
   #  url: https://jade-kim.github.io/year-archive/
   # - title: "About"
