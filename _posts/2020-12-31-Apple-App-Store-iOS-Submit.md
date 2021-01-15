@@ -2,8 +2,7 @@
 title: "애플 앱 스토어에 심사 통과되기 까지의 과정!🎉 "
 excerpt: "애플에 제출한 iOS 앱이 심사 통과 되었고 애플 앱 스토어에 정식 출시 되기까지 5번 거절 당하고 디버깅한 험난했던 과정"
 header:
-    teaser: /assets/images/2020-12-31.jpg
-    overlay_image: /assets/images/2020-12-31.jpg
+    overlay_color: "#1364DE"
     overlay_filter: rgba(0, 0, 0, 0.5)
 categories:
     - Hybrid-App
