@@ -9,6 +9,7 @@ categories:
 tags:
     - iOS
     - Ionic-react
+    - 문제 해결
 ---
 
 #### 2020/12/31 개발일지
