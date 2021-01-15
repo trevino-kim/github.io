@@ -2,9 +2,8 @@
 title: "XSS 라이브러리 - dompurify"
 excerpt: "GS인증을 위한 XSS attack 방지"
 header:
-  overlay_image: /assets/images/2020-11-19.jpg
+  overlay_color: "#F2E315"
   overlay_filter: rgba(0, 0, 0, 0.5)
-  teaser: /assets/images/2020-11-19.jpg
 categories:
   - Hybrid-App
 tags:
