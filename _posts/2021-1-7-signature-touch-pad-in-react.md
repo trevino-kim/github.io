@@ -2,8 +2,7 @@
 title: "리액트로 전자 서명 터치 패드 구현하기"
 excerpt: "브라우저, 아이오닉 모바일 앱, 하이브리드 모바일 앱에서 리액트 라이브러리 react-signature-canvas 를 사용하여 전자 서명 터치 패드 기능을 구현하는 방법 및 소스 코드 공유"
 header:
-  teaser: /assets/images/2021-1-7.png
-  overlay_image: /assets/images/2021-1-7.png
+  overlay_color: "#48CBFA"
   overlay_filter: rgba(0, 0, 0, 0.5)
 categories:
 - Hybrid-App
