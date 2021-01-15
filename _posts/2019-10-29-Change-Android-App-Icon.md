@@ -2,9 +2,8 @@
 title: "안드로이드 앱 아이콘 변경하는 방법 및 디버그용 APK 생성하는 방법"
 excerpt: "APK 파일 이란?"
 header:
-  overlay_image: /assets/images/2019-10-29.png
+  overlay_color: "#15F215"
   overlay_filter: rgba(0, 0, 0, 0.5)
-  teaser: /assets/images/2019-10-29.png
 categories:
     - Android
 tags:
