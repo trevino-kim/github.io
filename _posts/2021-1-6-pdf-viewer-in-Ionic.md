@@ -2,8 +2,8 @@
 title: "아이오닉 모바일 앱에 PDF 뷰어 및 줌 확대 축소 기능 만들기"
 excerpt: "모바일 PDF 및 사진 뷰어 구현 단계와 소스 코드 공유"
 header:
-  teaser: /assets/images/2021-1-6.jpg
-  overlay_image: /assets/images/2021-1-6.jpg
+  teaser: /assets/images/2021-1-6-1.jpg
+  overlay_color: "#158BF2"
   overlay_filter: rgba(0, 0, 0, 0.5)
 categories:
 - Hybrid-App
