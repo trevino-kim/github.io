@@ -7,9 +7,8 @@ header:
 categories:
 - Hybrid-App
 tags:
-- 안드로이드
 - 네이버 API
-- 디버깅
+- 문제 해결
 ---
 
 #### 2020/12/28 개발일지
