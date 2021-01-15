@@ -2,8 +2,7 @@
 title: "아이폰의 안전 영역 Safe area 픽셀 사이즈 정리"
 excerpt: "iPhone X (iPhone 10) 이상 부터 Safe area 라는 것이 있으므로 아이폰의 안전 영역 Safe area 를 고려해야 한다."
 header:
-  teaser: /assets/images/2020-12-8.jpeg
-  overlay_image: /assets/images/2020-12-8.jpeg
+  overlay_color: "#1364DE"
   overlay_filter: rgba(0, 0, 0, 0.5)
 categories:
 - Hybrid-App
