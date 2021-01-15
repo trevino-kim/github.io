@@ -2,8 +2,7 @@
 title: "이미지 파일을 해시 및 암호화 하는 과정에서 발생한 문제점 해결 방법"
 excerpt: "전자 동의서 서명 암호화 서버 통신과의 오류 발생한 원인 파악 및 문제 해결 과정"
 header:
-  teaser: /assets/images/2021-1-9.jpg
-  overlay_image: /assets/images/2021-1-9.jpg
+  overlay_color: "#F2E315"
   overlay_filter: rgba(0, 0, 0, 0.5)
 categories:
 - Web
