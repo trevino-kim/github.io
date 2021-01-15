@@ -8,9 +8,6 @@ categories:
   - Hybrid-App
 tags:
   - 프론트엔드 
-  - 프론트엔드개발자 
-  - Frontend 
-  - Developer 
   - Ionic
   - React
 ---
