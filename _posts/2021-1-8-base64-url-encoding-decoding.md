@@ -2,8 +2,7 @@
 title: "자바스크립트 Base64 기본 및 URL 인코딩 개념 알기"
 excerpt: "Base64 의 기본 개념과 사용하는 이유를 알아보고 자바스크립트로 Base64 인코딩 및 디코딩 하는 법, URL 인코딩 및 디코딩 하는 방법에 대해 알아보자."
 header:
-  teaser: /assets/images/2021-1-8.jpg
-  overlay_image: /assets/images/2021-1-8.jpg
+  overlay_color: "#F2E315"
   overlay_filter: rgba(0, 0, 0, 0.5)
 categories:
 - Web
