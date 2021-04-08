@@ -14,11 +14,11 @@ tags:
 
 <2021년 4월 3일 개발 일지>
 ### React 의 useCallback 훅 이란?
-	* 리액트 프레임워크에서 useCallback 이라는 훅이 있다. 컴포넌트가 렌더링 될 때마다 컴포넌트와 관련된 함수가 새로 생성이 되는데, 이때 함수가 업데이트되지 않고 이전에 생성했던 함수를 그대로 사용하고 싶다면 useCallback 훅을 사용하면 불필요한 함수 생성을 방지할 수 있다. 앱의 성능 최적화에 도움을 준다.
-	* useCallback 을 사용하여 함수를 생성하지 않고 이전의 함수를 그대로 사용하고 싶다면 훅으로 감싸주면 된다.
-	* `deps` 에는 함수가 업데이트되는 state 또는 prop 값을 추가해야 한다. 아래 예시에서는 inputs 의 값이 변경될 때 마다 onInputChange 의 함수 값이 달라지기 때문에 deps에 inputs 를 추가해준 것 이다.
-	* 만약 deps 에 inputs 를 넣지 않는다면 onInputChange 함수 내에서 참조하는 모든 값이 함수가 최초에 생성될 때 참고한 e, inputs 값을 가져와서 함수가 실행되기 때문에 정상적으로 작동되지 않을 것이다.
-	* useCallback 사용 방법 예시
+* 리액트 프레임워크에서 useCallback 이라는 훅이 있다. 컴포넌트가 렌더링 될 때마다 컴포넌트와 관련된 함수가 새로 생성이 되는데, 이때 함수가 업데이트되지 않고 이전에 생성했던 함수를 그대로 사용하고 싶다면 useCallback 훅을 사용하면 불필요한 함수 생성을 방지할 수 있다. 앱의 성능 최적화에 도움을 준다.
+* useCallback 을 사용하여 함수를 생성하지 않고 이전의 함수를 그대로 사용하고 싶다면 훅으로 감싸주면 된다.
+* `deps` 에는 함수가 업데이트되는 state 또는 prop 값을 추가해야 한다. 아래 예시에서는 inputs 의 값이 변경될 때 마다 onInputChange 의 함수 값이 달라지기 때문에 deps에 inputs 를 추가해준 것 이다.
+* 만약 deps 에 inputs 를 넣지 않는다면 onInputChange 함수 내에서 참조하는 모든 값이 함수가 최초에 생성될 때 참고한 e, inputs 값을 가져와서 함수가 실행되기 때문에 정상적으로 작동되지 않을 것이다.
+* useCallback 사용 방법 예시
 
 
 ```tsx
@@ -39,9 +39,9 @@ const onInputChange = useCallback((e) => {
 ```
 
 ### React.memo 함수 사용법
-	* React.memo 는 컴포넌트의 prop 이 바뀌었을 때만 리렌더링하고 그렇지 않으면 이전에 기억해둔 컴포넌트를 그대로 사용하도록 해주는 함수이다.
-	* useCallback 과 함께 사용하면 컴포넌트 내에 함수를  재사용하고 컴포넌트 리렌더링을 방지함으로써 컴포넌트를 최적화할 수 있다.
-	* React.memo 사용 방법 예시
+* React.memo 는 컴포넌트의 prop 이 바뀌었을 때만 리렌더링하고 그렇지 않으면 이전에 기억해둔 컴포넌트를 그대로 사용하도록 해주는 함수이다.
+* useCallback 과 함께 사용하면 컴포넌트 내에 함수를  재사용하고 컴포넌트 리렌더링을 방지함으로써 컴포넌트를 최적화할 수 있다.
+* React.memo 사용 방법 예시
 
 
 ```tsx
@@ -73,9 +73,9 @@ export default React.memo(MyNameCard, (prevProps, nextProps) => nextProps.inputs
 ### 크롬 익스텐션 React Developer Tools  
 : 컴포넌트 re-rendering 확인하는 방법 useCallback 훅이 제대로 작동하는지 크럼 익스텐션으로 확인할 수 있다.
 
-	1. 크롬 브라우저에서 React DevTools 설치 ([React Developer Tools - Chrome Web Store](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en))
-	2. 크롬 dev tool 열기 (Inspect)
-	3. React Components 클릭
-	4. 톱니바퀴 설정 아이콘 버튼 클릭
-	5. Highlight updates when components render 에 체크
-	6. 브라우저에서 컴포넌트 테스트를 해보면 컴포넌트가 렌더링 될 때마다 하이라이트 되는 것을 확인할 수 있다.
+1. 크롬 브라우저에서 React DevTools 설치 ([React Developer Tools - Chrome Web Store](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en))
+2. 크롬 dev tool 열기 (Inspect)
+3. React Components 클릭
+4. 톱니바퀴 설정 아이콘 버튼 클릭
+5. Highlight updates when components render 에 체크
+6. 브라우저에서 컴포넌트 테스트를 해보면 컴포넌트가 렌더링 될 때마다 하이라이트 되는 것을 확인할 수 있다.
