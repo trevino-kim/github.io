@@ -71,7 +71,8 @@ export default React.memo(MyNameCard, (prevProps, nextProps) => nextProps.inputs
 ```
 
 ### 크롬 익스텐션 React Developer Tools  
-컴포넌트 re-rendering 확인하는 방법 useCallback 훅이 제대로 작동하는지
+: 컴포넌트 re-rendering 확인하는 방법 useCallback 훅이 제대로 작동하는지 크럼 익스텐션으로 확인할 수 있다.
+
 	1. 크롬 브라우저에서 React DevTools 설치 ([React Developer Tools - Chrome Web Store](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en))
 	2. 크롬 dev tool 열기 (Inspect)
 	3. React Components 클릭
