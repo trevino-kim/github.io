@@ -19,6 +19,8 @@ tags:
 	* `deps` 에는 함수가 업데이트되는 state 또는 prop 값을 추가해야 한다. 아래 예시에서는 inputs 의 값이 변경될 때 마다 onInputChange 의 함수 값이 달라지기 때문에 deps에 inputs 를 추가해준 것 이다.
 	* 만약 deps 에 inputs 를 넣지 않는다면 onInputChange 함수 내에서 참조하는 모든 값이 함수가 최초에 생성될 때 참고한 e, inputs 값을 가져와서 함수가 실행되기 때문에 정상적으로 작동되지 않을 것이다.
 	* useCallback 사용 방법 예시
+
+
 ```tsx
 const onInputChange = () => {
 	// Input 내용이 변경될 때 마다 실행되는 함수
@@ -40,6 +42,8 @@ const onInputChange = useCallback((e) => {
 	* React.memo 는 컴포넌트의 prop 이 바뀌었을 때만 리렌더링하고 그렇지 않으면 이전에 기억해둔 컴포넌트를 그대로 사용하도록 해주는 함수이다.
 	* useCallback 과 함께 사용하면 컴포넌트 내에 함수를  재사용하고 컴포넌트 리렌더링을 방지함으로써 컴포넌트를 최적화할 수 있다.
 	* React.memo 사용 방법 예시
+
+
 ```tsx
 const MyNameCard: React.FC = () => {
 	return (
