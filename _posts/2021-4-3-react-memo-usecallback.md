@@ -1,6 +1,6 @@
 ---
-title: “리액트 컴포넌트 최적화 방법 useCallback 사용법“
-excerpt: “React useCallback 과 React.memo 를 사용하여 함수를  재사용하고 컴포넌트 리렌더링을 방지함으로써 컴포넌트를 최적화하는 방법과 크롬 익스텐션 React Developer Tools 사용법을 간단하게 설명한다.“
+title: "리액트 컴포넌트 최적화 방법 useCallback 사용법"
+excerpt: "React useCallback 과 React.memo 를 사용하여 함수를  재사용하고 컴포넌트 리렌더링을 방지함으로써 컴포넌트를 최적화하는 방법과 크롬 익스텐션 React Developer Tools 사용법을 간단하게 설명한다."
 header:
   overlay_color: "#48CBFA"
   overlay_filter: rgba(0, 0, 0, 0.5)
