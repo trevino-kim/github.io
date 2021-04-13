@@ -2,18 +2,22 @@
 main:
   #- title: "Quick-Start Guide"
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "소개"
-    url: /about/
-  - title: "이력서"
-    url: /resume/
-  - title: "포트폴리오"
-    url: /portfolio/
-  - title: "로드맵"
-    url: /roadmap/
-  - title: "문제 해결"
-    url: /tags/#문제-해결
-#   - title: "카테고리"
-#     url: /categories/
+  # - title: "소개"
+  #  url: /about/
+  # - title: "이력서"
+  #  url: /resume/
+  #- title: "포트폴리오"
+  #  url: /portfolio/
+  #- title: "로드맵"
+  #  url: /roadmap/
+  #- title: "문제 해결"
+  #  url: /tags/#문제-해결
+  - title: "경제 용어"
+    url: /categories/#경제-용어
+  - title: "경제 지식"
+    url: /categories/#경제-지식
+  # - title: "카테고리"
+  #   url: /categories/
 #   - title: "태그"
 #     url: /tags/
   # - title: "연도별"
