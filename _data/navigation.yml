@@ -18,8 +18,8 @@ main:
     url: /categories/#경제-지식
   # - title: "카테고리"
   #   url: /categories/
-   - title: "태그"
-     url: /tags/
+  - title: "태그"
+    url: /tags/
   # - title: "연도별"
   #  url: https://jade-kim.github.io/year-archive/
   # - title: "About"
